@@ -1,0 +1,1 @@
+json.extract! blog_post, :id, :author_id, :title, :body
