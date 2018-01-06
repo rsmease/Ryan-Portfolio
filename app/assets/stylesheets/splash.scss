@@ -1,3 +1,37 @@
 .splash-container {
-    background: $blue-gradient;
+    width: 100%;
+    @include flex-center(column);
+    @include background-gradient($dark-blue, $splash-gradient);
+}
+
+.splash-title {
+    font-size: 96px;
+    font-weight: bold;
+    color: white;
+}
+
+.splash-link {
+    padding: 10px 20px;
+    color: white;
+    font-size: 36px;
+    @include background-gradient($dark-green, $button-gradient);
+    border-radius: 3px;
+}
+
+.splash-link:hover {
+    @include background-gradient($dark-green, $button-gradient-reverse);
+}
+
+.fade-in {
+    @include fade-in;
+}
+
+.fade-in-first {
+    @extend .fade-in;
+    @include animation-delay(0.7s);
+}
+
+.fade-in-second {
+    @extend .fade-in;
+    @include animation-delay(1s);
 }

@@ -1,11 +1,15 @@
 //utils
 @import 'utils/reset';
+@import 'utils/colors';
+@import 'utils/mixins';
+@import url("https://fonts.googleapis.com/css?family=Lato");
+//components
 @import 'splash';
 //containers
 html,
 body {
     height: 100%;
-    font-family: $lato;
+    font-family: "Lato", sans-serif;
     overflow: scroll;
 }
 
@@ -13,12 +17,6 @@ main {
     width: 100%;
     min-height: 100%;
     @include flex(row);
-    @include background-gradient($lannister-gold, $login-gradient);
-}
-
-.app-container {
-    @include flex(row);
-    flex: auto;
 }
 
 // links and buttons
