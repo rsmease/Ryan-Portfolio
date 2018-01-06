@@ -88,8 +88,78 @@
     animation-duration: 1s;
 }
 
+@keyframes expand {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@mixin expand {
+    width: 0%;
+    -webkit-animation: expand ease-in 1;
+    -moz-animation: expand ease-in 1;
+    animation: expand ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
 @mixin animation-delay($time) {
     -webkit-animation-delay: $time;
     -moz-animation-delay: $time;
     animation-delay: $time;
+}
+
+@mixin hover-ease($property, $pace) {
+    -webkit-transition: $property $pace ease-in;
+    -moz-transition: $property $pace ease-in;
+    -ms-transition: $property $pace ease-in;
+    -o-transition: $property $pace ease-in;
+    transition: $property $pace ease-in;
+}
+
+@mixin material-button-defaults {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 15px 35px;
+}
+
+@mixin expanding-bottom-border($color, $thickness) {
+    content: '';
+    display: block;
+    width: 100%;
+    height: $thickness;
+    background: $color;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+}
+
+@mixin expanding-bottom-border-after-hover {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+@mixin material-div-defaults {
+    z-index: 1;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+@mixin material-card-defaults($h, $w) {
+    background-color: white;
+    border-radius: 3px;
+    height: $h;
+    width: $w;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+@mixin material-card-hover-defaults {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }

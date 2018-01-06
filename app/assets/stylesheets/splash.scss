@@ -10,16 +10,16 @@
     color: white;
 }
 
-.splash-link {
-    padding: 10px 20px;
-    color: white;
-    font-size: 36px;
-    @include background-gradient($dark-green, $button-gradient);
-    border-radius: 3px;
+.splash-links-container {
+    @include flex-space-around(row);
+    margin: 30px 0 0 0;
+    width: 350px;
 }
 
-.splash-link:hover {
-    @include background-gradient($dark-green, $button-gradient-reverse);
+.splash-link {
+    color: #fff;
+    background-color: $very-dark-blue;
+    @include material-button-defaults;
 }
 
 .fade-in {
@@ -34,4 +34,33 @@
 .fade-in-second {
     @extend .fade-in;
     @include animation-delay(1s);
+}
+
+.raise {
+    @include hover-ease(box-shadow, 300ms);
+    @include hover-ease(transform, 300ms);
+}
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.line-top {
+    @include expand;
+    border-bottom: 3px solid white;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.line-bottom {
+    @include expand;
+    border-top: 3px solid white;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
