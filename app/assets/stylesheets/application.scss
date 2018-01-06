@@ -1,0 +1,55 @@
+//utils
+@import 'utils/reset';
+@import 'splash';
+//containers
+html,
+body {
+    height: 100%;
+    font-family: $lato;
+    overflow: scroll;
+}
+
+main {
+    width: 100%;
+    min-height: 100%;
+    @include flex(row);
+    @include background-gradient($lannister-gold, $login-gradient);
+}
+
+.app-container {
+    @include flex(row);
+    flex: auto;
+}
+
+// links and buttons
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+//remove ugly browser defaults
+button:active,
+button:focus,
+input:active,
+input:focus,
+textarea:focus,
+textarea:active {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-image: none;
+}
+
+input {
+    border: none;
+}
+
+// submit buttons on forms without valid input
+.disabled-a {
+    pointer-events: none;
+    cursor: none;
+}
