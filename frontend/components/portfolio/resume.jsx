@@ -1,4 +1,5 @@
 import React from 'react';
+import * as FontAwesome from 'react-icons/lib/fa';
 import { Router, Link } from 'react-router-dom';
 
 class Resume extends React.Component {
@@ -26,11 +27,13 @@ class Resume extends React.Component {
                     <div className="left-index">
                         <h1 className="resume-index-header">Experience</h1>
                         <div className="left-index-item">
-                            <ul className="resume-index-item-header">
-                                <li className="resume-index-item-header-bold">App Academy</li>
-                                <li className="resume-index-item-header-detail">Teaching Assistant</li>
-                                <li className="resume-index-item-header-detail">12/2017 -</li>
-                            </ul>
+                            <div className="resume-index-item-header-alignment-container">
+                                <ul className="resume-index-item-header">
+                                    <li className="resume-index-item-header-bold">App Academy</li>
+                                    <li className="resume-index-item-header-detail">Teaching Assistant</li>
+                                </ul>
+                                <div className="resume-index-item-header-date">12/2017 -</div>
+                            </div>
                             <ul className="resume-index-item-content-index">
                                 <li className="resume-index-item-content-index-item">
                                     Teach web development curriculum</li>
@@ -45,11 +48,13 @@ class Resume extends React.Component {
                             </ul>
                         </div>
                         <div className="left-index-item">
-                            <ul className="resume-index-item-header">
-                                <li className="resume-index-item-header-bold">Airbus Group Inc.</li>
-                                <li className="resume-index-item-header-detail">Operations Manager</li>
-                                <li className="resume-index-item-header-detail">08/15 - 10/17</li>
-                            </ul>
+                            <div className="resume-index-item-header-alignment-container">
+                                <ul className="resume-index-item-header">
+                                    <li className="resume-index-item-header-bold">Airbus Group, Inc.</li>
+                                    <li className="resume-index-item-header-detail">Operations Manager</li>
+                                </ul>
+                                <div className="resume-index-item-header-date">08/2015 - 10/2017</div>
+                            </div>
                             <ul className="resume-index-item-content-index">
                                 <li className="resume-index-item-content-index-item">
                                     Founding employee, aerospace research lab</li>
@@ -64,12 +69,14 @@ class Resume extends React.Component {
                             </ul>
                         </div>
                         <div className="left-index-item">
-                            <ul className="resume-index-item-header">
-                                <li className="resume-index-item-header-bold">Stanford University</li>
-                                <li className="resume-index-item-header-detail">Department of Computer Science</li>
-                                <li className="resume-index-item-header-detail">Student Services Specialist</li>
-                                <li className="resume-index-item-header-detail">08/15 - 10/17</li>
-                            </ul>
+                            <div className="resume-index-item-header-alignment-container">
+                                <ul className="resume-index-item-header">
+                                    <li className="resume-index-item-header-bold">Stanford University</li>
+                                    <li className="resume-index-item-header-detail">Department of Computer Science</li>
+                                    <li className="resume-index-item-header-detail">Student Services Specialist</li>
+                                </ul>
+                                <div className="resume-index-item-header-date">12/2013 - 08/2015</div>
+                            </div>
                             <ul className="resume-index-item-content-index">
                                 <li className="resume-index-item-content-index-item">
                                     Maintained MySQL database of 1000s of academic records</li>
@@ -82,6 +89,86 @@ class Resume extends React.Component {
                             </ul>
                         </div>
                     </div>
+                    <div className="right-index">
+                        <h1 className="resume-index-header">Recent Projects</h1>
+                        <div className="right-index-item">
+                            <div className="resume-index-item-header-alignment-container">
+                                <ul className="resume-index-item-header">
+                                    <li className="resume-index-item-header-bold">Ashai</li>
+                                    <li className="resume-index-item-header-detail">Individual Project</li>
+                                </ul>
+                                <div className="resume-index-item-header-date">2017</div>
+                            </div>
+                            <ul className="resume-index-item-content-index">
+                                <li className="resume-index-item-content-index-item">
+                                    Asana clone featuring React front-end, Rails back-end</li>
+                                <li className="resume-index-item-content-index-subitem">
+                                    npm, Redux store, Vanilla JavaScript, PostgreSQL API</li>
+                                <li className="resume-index-item-content-index-item">
+                                    Refactored version has 800 fewer lines of code</li>
+                                <li className="resume-index-item-content-index-subitem">
+                                    Single react-modal processes nearly all CRUD actions</li>
+                                <li className="resume-index-item-content-index-item">
+                                    Responsive search bar finds users, projects, teams and tasks</li>
+                            </ul>
+                        </div>
+                        <br />
+                        <h1 className="resume-index-header">Education</h1>
+                        <div className="right-index-item">
+                            <div className="resume-index-item-header-alignment-container">
+                                <ul className="resume-index-item-header">
+                                    <li className="resume-index-item-header-bold">Professional Skills</li>
+                                </ul>
+                            </div>
+                            <ul className="resume-index-item-content-index">
+                                <li className="resume-index-item-content-index-item">
+                                    Talking to Computers</li>
+                                <li className="resume-index-item-content-index-subitem">
+                                    React, Redux, JavaScript (ES6), CSS3, HTML5, Ruby on Rails, npm, git, PostreSQL, jQuery, Vanilla JavaScript, MySQL, Python, Express, MongoDB</li>
+                                <li className="resume-index-item-content-index-item">
+                                    Talking to People</li>
+                                <li className="resume-index-item-content-index-subitem">
+                                    Spanish, German, French, Latin, Ancient Greek</li>
+                            </ul>
+                        </div>
+                        <div className="right-index-item">
+                            <div className="resume-index-item-header-alignment-container">
+                                <ul className="resume-index-item-header">
+                                    <li className="resume-index-item-header-bold">Formal Education</li>
+                                </ul>
+                            </div>
+                            <ul className="resume-index-item-content-index">
+                                <li className="resume-index-item-content-index-item">
+                                    App Academy (2017)</li>
+                                <li className="resume-index-item-content-index-subitem">
+                                    Rigorous 1000-hour full-stack development course with less than 3% acceptance rate</li>
+                                <li className="resume-index-item-content-index-item">
+                                    University of Chicago (2013)</li>
+                                <li className="resume-index-item-content-index-subitem">
+                                    B.A. Ancient Greek and Latin</li>
+                                <li className="resume-index-item-content-index-subitem">
+                                    summa cum laude</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="resume-footer">
+                    <a
+                        href="https://github.com/rsmease"
+                        target="_blank">
+                        <FontAwesome.FaGit className="resume-footer-icon raise" />
+                    </a>
+                    <a
+                        href="https://drive.google.com/file/d/1vqpCQbfVO9IwSfEiLymdSHbcZcMkndEu/view?usp=sharing"
+                        target="_blank" >
+                        <FontAwesome.FaPrint className="resume-footer-icon raise" />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/ryan-mease-140b473a/"
+                        target="_blank">
+                        <FontAwesome.FaLinkedin className="resume-footer-icon raise" />
+                    </a>
                 </div>
             </div>
         );
