@@ -35,33 +35,21 @@
 
 .resume-index-header {
     color: $dark-green;
-    font-size: 36px;
+    font-size: 48px;
+    margin: 30px 0;
+    z-index: 1;
+}
+
+.resume-index {
+    @include flex-center(column);
+}
+
+.resume-index-item {
     margin: 0 0 30px 0;
-}
-
-.left-index {
-    @include flex(column);
-}
-
-.right-index {
-    @extend .left-index;
-    align-items: flex-end;
-}
-
-.left-index-item {
-    margin: 0 0 30px 0;
-    @include material-card-defaults(350px, 550px);
+    z-index: 1;
+    @include material-card-defaults(400px, 750px);
     @include flex-space-between(column);
     align-items: flex-start;
-}
-
-.right-index-item {
-    @extend .left-index-item;
-}
-
-.left-index-item:hover,
-.right-index-item:hover {
-    @include material-card-hover-defaults;
 }
 
 .resume-index-item-header-alignment-container {
@@ -69,8 +57,8 @@
     background-color: $dark-green;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    width: 550px;
-    height: 100px;
+    width: 750px;
+    height: 150px;
 }
 
 .resume-index-item-header {
@@ -81,14 +69,14 @@
 .resume-index-item-header-bold {
     margin: 0 0 0 20px;
     color: white;
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 500;
 }
 
 .resume-index-item-header-detail {
     @extend .resume-index-item-header-bold;
     margin: 3px 0 0 20px;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .resume-index-item-header-date {
@@ -100,21 +88,20 @@
     @include flex(column);
     justify-content: center;
     margin: 0 0 0 10px;
-    width: 450px;
+    width: 600px;
     height: 250px;
-    list-style-type: disc;
 }
 
 .resume-index-item-content-index-item {
     margin: 5px 0 5px 30px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .resume-index-item-content-index-subitem {
     @extend .resume-index-item-content-index-item;
-    margin: 0 0 5px 40px;
+    margin: 0 0 5px 50px;
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
     list-style-type: none;
 }
 
@@ -133,4 +120,47 @@
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
     font-size: 30px;
     margin: 0 10px;
+}
+
+.line-left {
+    @include expand-height;
+    border-right: 3px solid $dark-green;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.line-left-two {
+    @extend .line-left;
+    width: 125px;
+    @include animation-delay(0.5s);
+}
+
+.line-left-three {
+    @extend .line-left;
+    width: 150px;
+    @include animation-delay(1s);
+}
+
+.line-right {
+    @include expand-height;
+    @include animation-delay(0.5s);
+    border-left: 3px solid $dark-green;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.line-right-two {
+    @extend .line-right;
+    width: 125px;
+    @include animation-delay(1.5s);
+}
+
+.line-right-three {
+    @extend .line-right-two;
+    width: 150px;
+    @include animation-delay(2s);
 }

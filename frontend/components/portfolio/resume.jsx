@@ -23,10 +23,13 @@ class Resume extends React.Component {
                         <li className="resume-contact-details-index-item">(415) 638-1940</li>
                     </ul>
                 </div>
+                <div className="line-left"></div>
+                <div className="line-left-two"></div>
+                <div className="line-left-three"></div>
                 <div className="resume-body">
-                    <div className="left-index">
+                    <div className="resume-index">
                         <h1 className="resume-index-header">Experience</h1>
-                        <div className="left-index-item">
+                        <div className="resume-index-item">
                             <div className="resume-index-item-header-alignment-container">
                                 <ul className="resume-index-item-header">
                                     <li className="resume-index-item-header-bold">App Academy</li>
@@ -47,7 +50,7 @@ class Resume extends React.Component {
                                     Discuss design tradeoffs, OOP strategies</li>
                             </ul>
                         </div>
-                        <div className="left-index-item">
+                        <div className="resume-index-item">
                             <div className="resume-index-item-header-alignment-container">
                                 <ul className="resume-index-item-header">
                                     <li className="resume-index-item-header-bold">Airbus Group, Inc.</li>
@@ -60,15 +63,13 @@ class Resume extends React.Component {
                                     Founding employee, aerospace research lab</li>
                                 <li className="resume-index-item-content-index-subitem">
                                     Negotiated, signed 100s of agreements for aerospace parts and engineering services</li>
-                                <li className="resume-index-item-content-index-subitem">
-                                    $10K signing authority, $2-4M annual spending</li>
                                 <li className="resume-index-item-content-index-item">
-                                    Oversaw development of public website and internal wiki</li>
+                                    Oversaw development of public website, internal wiki</li>
                                 <li className="resume-index-item-content-index-subitem">
                                     Ruby on Rails, HTML5, CSS3</li>
                             </ul>
                         </div>
-                        <div className="left-index-item">
+                        <div className="resume-index-item">
                             <div className="resume-index-item-header-alignment-container">
                                 <ul className="resume-index-item-header">
                                     <li className="resume-index-item-header-bold">Stanford University</li>
@@ -79,7 +80,7 @@ class Resume extends React.Component {
                             </div>
                             <ul className="resume-index-item-content-index">
                                 <li className="resume-index-item-content-index-item">
-                                    Maintained MySQL database of 1000s of academic records</li>
+                                    Maintained MySQL database of 1000s of students' academic records</li>
                                 <li className="resume-index-item-content-index-subitem">
                                     Monitor student degree progress, track student demographics</li>
                                 <li className="resume-index-item-content-index-item">
@@ -88,10 +89,8 @@ class Resume extends React.Component {
                                     vi, Drupal</li>
                             </ul>
                         </div>
-                    </div>
-                    <div className="right-index">
                         <h1 className="resume-index-header">Recent Projects</h1>
-                        <div className="right-index-item">
+                        <div className="resume-index-item">
                             <div className="resume-index-item-header-alignment-container">
                                 <ul className="resume-index-item-header">
                                     <li className="resume-index-item-header-bold">Ashai</li>
@@ -109,12 +108,12 @@ class Resume extends React.Component {
                                 <li className="resume-index-item-content-index-subitem">
                                     Single react-modal processes nearly all CRUD actions</li>
                                 <li className="resume-index-item-content-index-item">
-                                    Responsive search bar finds users, projects, teams and tasks</li>
+                                    Responsive search bar</li>
                             </ul>
                         </div>
                         <br />
                         <h1 className="resume-index-header">Education</h1>
-                        <div className="right-index-item">
+                        <div className="resume-index-item">
                             <div className="resume-index-item-header-alignment-container">
                                 <ul className="resume-index-item-header">
                                     <li className="resume-index-item-header-bold">Professional Skills</li>
@@ -131,7 +130,7 @@ class Resume extends React.Component {
                                     Spanish, German, French, Latin, Ancient Greek</li>
                             </ul>
                         </div>
-                        <div className="right-index-item">
+                        <div className="resume-index-item">
                             <div className="resume-index-item-header-alignment-container">
                                 <ul className="resume-index-item-header">
                                     <li className="resume-index-item-header-bold">Formal Education</li>
@@ -153,6 +152,9 @@ class Resume extends React.Component {
 
                     </div>
                 </div>
+                <div className="line-right"></div>
+                <div className="line-right-two"></div>
+                <div className="line-right-three"></div>
                 <div className="resume-footer">
                     <a
                         href="https://github.com/rsmease"
