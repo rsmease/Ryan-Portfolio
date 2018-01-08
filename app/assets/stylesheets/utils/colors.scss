@@ -1,11 +1,22 @@
-$very-dark-blue: #1A569B;
-$dark-blue: #217CE5;
-$light-blue: #529AEB;
-$very-light-blue: #98C5F3;
-$dark-green: #78a8c0;
-$light-green: #d8f0f0;
-$dark-lavender: #c0c0d8;
-$light-lavender: #f0f0ff;
-$splash-gradient: to bottom right,
-$dark-blue,
-$light-blue;
+$dark-blue: #165371;
+$light-blue: #79A1D7;
+$medium-gray: #A6AFA4;
+$light-gray: #B9C3C2;
+$lavender-gray: #868BA7;
+$white: #FFFFFF;
+$black: #000000;
+@mixin blue-gradient {
+    background: #165371;
+    background: -moz-linear-gradient(-45deg, #165371 0%, #79a1d7 100%);
+    background: -webkit-linear-gradient(-45deg, #165371 0%, #79a1d7 100%);
+    background: linear-gradient(135deg, #165371 0%, #79a1d7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#165371', endColorstr='#79a1d7', GradientType=1);
+}
+
+@mixin lavender-gradient {
+    background: #b9c3c2;
+    background: -moz-linear-gradient(-45deg, #b9c3c2 1%, #868ba7 100%);
+    background: -webkit-linear-gradient(-45deg, #b9c3c2 1%, #868ba7 100%);
+    background: linear-gradient(135deg, #b9c3c2 1%, #868ba7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9c3c2', endColorstr='#868ba7', GradientType=1);
+}

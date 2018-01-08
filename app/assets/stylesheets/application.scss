@@ -5,7 +5,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 //components
 @import 'splash';
-@import 'resume';
+@import 'resume/resume_header';
+@import 'resume/resume_body';
+@import 'resume/resume_footer';
 //containers
 html,
 body {

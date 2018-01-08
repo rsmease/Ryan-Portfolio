@@ -5,7 +5,7 @@ import { AuthRoute, ProtectedRoute } from '../../util/route_util';
 
 //components
 import Splash from './splash.jsx';
-import Resume from '../portfolio/resume';
+import Resume from '../resume/resume_container';
 
 
 const App = () => (

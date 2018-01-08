@@ -1,0 +1,17 @@
+.resume-footer {
+    @include blue-gradient;
+    @include flex-center(row);
+    height: 100px;
+    width: 80vw;
+}
+
+.resume-footer a {
+    color: $white;
+    font-size: 36px;
+    margin: 0 10px;
+    @include hover-ease(all, 0.3s);
+}
+
+.resume-footer a:hover {
+    color: $light-gray;
+}

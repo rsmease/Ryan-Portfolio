@@ -110,28 +110,6 @@
     animation-duration: 1s;
 }
 
-@keyframes expand-height {
-    from {
-        height: 0%;
-    }
-    to {
-        height: 100%;
-    }
-}
-
-@mixin expand-height {
-    height: 0%;
-    -webkit-animation: expand-height ease-in 1;
-    -moz-animation: expand-height ease-in 1;
-    animation: expand-height ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-duration: 4s;
-    -moz-animation-duration: 4s;
-    animation-duration: 4s;
-}
-
 @mixin animation-delay($time) {
     -webkit-animation-delay: $time;
     -moz-animation-delay: $time;
