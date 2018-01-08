@@ -18,8 +18,10 @@ class ResumeSidebar extends React.Component {
                 <div className="resume-sidebar-index">
                     <h1 className="resume-sidebar-title">Recent Projects</h1>
                     <div className="resume-sidebar-index-item">
-                        <h2 className="resume-sidebar-index-item-title">Ashai</h2>
-                        <h3 className="resume-sidebar-index-item-subtitle">Individual Project</h3>
+                        <div className="resume-sidebar-index-item-header-alignment-container">
+                            <a href="http://www.ashai.co" target="_blank" className="resume-sidebar-index-item-big-title resume-link">Ashai</a>
+                            <h3 className="resume-sidebar-index-item-little-title">Individual Project</h3>
+                        </div>
                         <p className="resume-sidebar-index-item-content">
                             Asana clone
                         </p>
@@ -35,8 +37,10 @@ class ResumeSidebar extends React.Component {
                 <div className="resume-sidebar-index">
                     <h1 className="resume-sidebar-title">Education</h1>
                     <div className="resume-sidebar-index-item">
-                        <h3 className="resume-sidebar-index-item-date">2017</h3>
-                        <h2 className="resume-sidebar-index-item-title title-reverse-margin">App Academy</h2>
+                        <div className="resume-sidebar-index-item-header-alignment-container">
+                            <h3 className="resume-sidebar-index-item-little-title">2017</h3>
+                            <h1 className="resume-sidebar-index-item-big-title">App Academy</h1>
+                        </div>
                         <p className="resume-sidebar-index-item-content">
                             Selective full-stack bootcamp
                         </p>
@@ -45,8 +49,10 @@ class ResumeSidebar extends React.Component {
                         </p>
                     </div>
                     <div className="resume-sidebar-index-item">
-                        <h3 className="resume-sidebar-index-item-date">2013</h3>
-                        <h2 className="resume-sidebar-index-item-title title-reverse-margin">University of Chicago</h2>
+                        <div className="resume-sidebar-index-item-header-alignment-container">
+                            <h3 className="resume-sidebar-index-item-little-title">2013</h3>
+                            <h1 className="resume-sidebar-index-item-big-title">University of Chicago</h1>
+                        </div>
                         <p className="resume-sidebar-index-item-content">
                             BA, Greek and Latin
                         </p>
@@ -56,19 +62,27 @@ class ResumeSidebar extends React.Component {
                 <div className="resume-sidebar-index">
                     <h1 className="resume-sidebar-title">Skills</h1>
                     <div className="resume-sidebar-index-item">
-                        <h2 className="resume-sidebar-index-item-subtitle add-30-top-margin">Talking to Computers</h2>
+                        <div className="resume-sidebar-index-item-header-alignment-container">
+                            <h3 className="resume-sidebar-index-item-little-title">Talking to Computers</h3>
+                        </div>
+                        <p className="resume-sidebar-index-item-content underline">Advanced</p>
                         <p className="resume-sidebar-index-item-content">
-                            React, Redux, JavaScript (ES6)
+                            React, Redux, JavaScript (ES6), npm
                         </p>
                         <p className="resume-sidebar-index-item-content">
-                            Vanilla JavaScript, jQuery, HTML5, CSS3
+                            Ruby, Rails, HTML5, CSS3, PostgreSQL, git
                         </p>
+                        <br />
+                        <p className="resume-sidebar-index-item-content underline">Basic</p>
                         <p className="resume-sidebar-index-item-content">
-                            Ruby on Rails, PostgreSQL, Express, npm, git
+                            Express, MongoDB, jQuery, Vanilla JavaScript
                         </p>
                     </div>
                     <div className="resume-sidebar-index-item">
-                        <h2 className="resume-sidebar-index-item-subtitle add-30-top-margin">Talking to People</h2>
+                        <div className="resume-sidebar-index-item-header-alignment-container">
+                            <h3 className="resume-sidebar-index-item-little-title">Talking to People</h3>
+                        </div>
+                        <p className="resume-sidebar-index-item-content underline">Advanced</p>
                         <p className="resume-sidebar-index-item-content">
                             Ancient Greek, Latin
                         </p>

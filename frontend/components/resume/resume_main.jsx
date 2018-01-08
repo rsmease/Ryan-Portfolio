@@ -14,9 +14,11 @@ class ResumeMain extends React.Component {
                 <div className="resume-main-index">
                     <h1 className="resume-main-title">Experience</h1>
                     <div className="resume-main-index-item">
-                        <h2 className="resume-main-index-item-title">App Academy</h2>
-                        <h3 className="resume-main-index-item-subtitle">Teaching Assistant</h3>
-                        <h3 className="resume-main-index-item-date">12/17 - present</h3>
+                        <div className="resume-main-index-item-header-alignment-container">
+                            <h3 className="resume-main-index-item-little-title">12/17 -</h3>
+                            <h1 className="resume-main-index-item-big-title">App Academy</h1>
+                            <h3 className="resume-main-index-item-little-title">Teaching Assistant</h3>
+                        </div>
                         <p className="resume-main-index-item-content">
                             Teach web development curriculum
                         </p>
@@ -28,9 +30,11 @@ class ResumeMain extends React.Component {
                         </p>
                     </div>
                     <div className="resume-main-index-item">
-                        <h2 className="resume-main-index-item-title">Airbus Group, Inc.</h2>
-                        <h3 className="resume-main-index-item-subtitle">Operations Manager</h3>
-                        <h3 className="resume-main-index-item-date">08/15 - 10/17</h3>
+                        <div className="resume-main-index-item-header-alignment-container">
+                            <h3 className="resume-main-index-item-little title">08/15 - 10/17</h3>
+                            <h1 className="resume-main-index-item-big-title">Airbus Group, Inc.</h1>
+                            <h3 className="resume-main-index-item-little-title">Operations Manager</h3>
+                        </div>
                         <p className="resume-main-index-item-content">
                             Founding employee, aerospace research lab
                         </p>
@@ -42,10 +46,12 @@ class ResumeMain extends React.Component {
                         </p>
                     </div>
                     <div className="resume-main-index-item">
-                        <h2 className="resume-main-index-item-title">Stanford University</h2>
-                        <h3 className="resume-main-index-item-subtitle">Department of Computer Science</h3>
-                        <h3 className="resume-main-index-item-subtitle">Student Services Specialist</h3>
-                        <h3 className="resume-main-index-item-date">12/13 - 08/15</h3>
+                        <div className="resume-main-index-item-header-alignment-container">
+                            <h3 className="resume-main-index-item-little title">12/13 - 08/15</h3>
+                            <h1 className="resume-main-index-item-big-title">Stanford University</h1>
+                            <h1 className="resume-main-index-item-big-title">Department of Computer Science</h1>
+                            <h3 className="resume-main-index-item-little-title">Student Services Specialist</h3>
+                        </div>
                         <p className="resume-main-index-item-content">
                             Maintained department webpages
                         </p>
