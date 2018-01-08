@@ -1,6 +1,8 @@
 .resume-container {
     @include flex-center(column);
-    width: 100vw;
+    width: 80vw;
+    margin: 0 0 0 10vw;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .resume-header {
