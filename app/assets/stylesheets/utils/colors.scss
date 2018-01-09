@@ -1,7 +1,8 @@
-$dark-blue: #165371;
+$maroon: #7a2828;
+$dark-blue: #08243F;
 $light-blue: #79A1D7;
-$medium-gray: #A6AFA4;
-$light-gray: #B9C3C2;
+$medium-gray: #EDEDED;
+$light-gray: #F2E1E1;
 $lavender-gray: #868BA7;
 $dark-green: #66A182;
 $light-green: #3BC14A;
@@ -15,10 +16,11 @@ $black: #000000;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#165371', endColorstr='#79a1d7', GradientType=1);
 }
 
-@mixin lavender-gradient {
-    background: #b9c3c2;
-    background: -moz-linear-gradient(-45deg, #b9c3c2 1%, #868ba7 100%);
-    background: -webkit-linear-gradient(-45deg, #b9c3c2 1%, #868ba7 100%);
-    background: linear-gradient(135deg, #b9c3c2 1%, #868ba7 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9c3c2', endColorstr='#868ba7', GradientType=1);
+@mixin maroon-gradient {
+    background: #a73737;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7a2828, #a73737);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7a2828, #a73737);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

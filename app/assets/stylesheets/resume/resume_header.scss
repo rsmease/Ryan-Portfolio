@@ -7,7 +7,7 @@
 
 .resume-header {
     @include flex-center(column);
-    @include blue-gradient;
+    @include maroon-gradient;
     padding: 30px 0;
     width: 70vw;
 }

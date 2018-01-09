@@ -1,5 +1,5 @@
 .resume-footer {
-    @include blue-gradient;
+    @include maroon-gradient;
     @include flex-center(row);
     height: 100px;
     width: 70vw;
@@ -13,5 +13,5 @@
 }
 
 .resume-footer a:hover {
-    color: $light-green;
+    color: $dark-blue;
 }

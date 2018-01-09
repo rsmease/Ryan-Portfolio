@@ -11,9 +11,8 @@
     align-items: flex-end;
     justify-content: flex-start;
     background-color: $medium-gray;
-    border-right: $light-green 3px solid;
     padding: 0px 30px 0px 30px;
-    width: 35vw;
+    width: 30vw;
     height: 100%;
 }
 
@@ -21,7 +20,7 @@
     @extend .resume-sidebar;
     border-right: none;
     align-items: flex-start;
-    width: 35vw;
+    width: 40vw;
     background-color: $white;
 }
 
@@ -40,7 +39,7 @@
 .resume-main-title {
     @extend .resume-body-title;
     text-align: left;
-    color: $dark-blue;
+    color: $maroon;
 }
 
 .resume-body-index {
@@ -92,7 +91,7 @@
 
 .resume-sidebar-index-item-big-title {
     @extend .resume-index-item-big-title;
-    color: $dark-blue;
+    color: $maroon;
 }
 
 .resume-main-index-item-big-title {
@@ -106,16 +105,23 @@
 
 .resume-sidebar-index-item-little-title {
     @extend .resume-index-item-little-title;
-    color: $dark-blue;
+    color: $maroon;
 }
 
 .resume-main-index-item-little-title {
     @extend .resume-index-item-little-title;
+    margin: 5px 0 0 0;
     color: $black;
+}
+
+.resume-main-index-item-little-title-date {
+    @extend .resume-index-item-little-title;
+    margin: 0 0 0 0;
 }
 
 .resume-index-item-content {
     font-size: 16px;
+    margin: 3px 0;
 }
 
 .resume-sidebar-index-item-content {
@@ -126,8 +132,15 @@
 
 .resume-main-index-item-content {
     @extend .resume-index-item-content;
+    margin: 10px 0 0 0;
     text-align: left;
-    color: $dark-blue;
+    color: $maroon;
+}
+
+.resume-main-index-item-content-detail {
+    @extend .resume-main-index-item-content;
+    list-style-type: circle;
+    margin: 3px 0 0 20px;
 }
 
 .resume-sidebar-divider {
@@ -139,19 +152,9 @@
 
 .resume-link {
     display: inline-block;
-    @include hover-ease(all, 0.3s);
+    @include hover-ease(color, 0.5s);
 }
 
 .resume-link:hover {
-    color: $light-green;
-}
-
-.resume-arrow-up {
-    @include arrow-up($light-green);
-    margin: 0 0 5px 0;
-}
-
-.resume-education-container {
-    @extend .resume-main-index-item;
-    height: auto;
+    color: $dark-blue;
 }

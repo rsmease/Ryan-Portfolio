@@ -19,8 +19,9 @@ class ResumeSidebar extends React.Component {
                     <h1 className="resume-sidebar-title">Recent Projects</h1>
                     <div className="resume-sidebar-index-item">
                         <div className="resume-sidebar-index-item-header-alignment-container">
-                            <a href="http://www.ashai.co" target="_blank" className="resume-sidebar-index-item-big-title resume-link">Ashai</a>
+                            <h1 className="resume-sidebar-index-item-big-title">Ashai</h1>
                             <h3 className="resume-sidebar-index-item-little-title">Individual Project</h3>
+                            <a href="http://www.ashai.co" target="_blank" className="resume-sidebar-index-item-little-title resume-link underline">http://www.ashai.co</a>
                         </div>
                         <p className="resume-sidebar-index-item-content">
                             Asana clone
