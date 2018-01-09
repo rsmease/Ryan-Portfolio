@@ -21,6 +21,9 @@ class Resume extends React.Component {
     render() {
         return (
             <div className='resume-container'>
+                <div className="line-one"></div>
+                <div className="line-two"></div>
+                <div className="line-three"></div>
                 <ResumeHeader />
                 <div className='resume-body-container'>
                     <ResumeSidebar />

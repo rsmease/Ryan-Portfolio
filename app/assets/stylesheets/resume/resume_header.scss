@@ -13,6 +13,7 @@
     padding: 30px 0;
     height: 125px;
     width: 70vw;
+    z-index: 1;
 }
 
 .resume-title {
@@ -28,4 +29,34 @@
     margin: 0 10px;
     font-size: 16px;
     color: $white;
+}
+
+.line-one {
+    @include expand;
+    @include animation-delay(0.3s);
+    border-bottom: 50px solid $japanese-indigo;
+    height: calc(10vh + 185px);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.line-two {
+    @include expand;
+    @include animation-delay(0.5s);
+    border-bottom: 25px solid $maximum-blue;
+    height: calc(10vh + 235px);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.line-three {
+    @include expand;
+    @include animation-delay(0.7s);
+    border-bottom: 12.5px solid $japanese-indigo;
+    height: calc(10vh + 260px);
+    position: fixed;
+    top: 0;
+    right: 0;
 }

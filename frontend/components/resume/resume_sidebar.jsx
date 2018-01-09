@@ -64,7 +64,7 @@ class ResumeSidebar extends React.Component {
                     <h1 className="resume-sidebar-title">Skills</h1>
                     <div className="resume-sidebar-index-item">
                         <div className="resume-sidebar-index-item-header-alignment-container">
-                            <h3 className="resume-sidebar-index-item-little-title">Talking to Computers</h3>
+                            <h3 className="resume-sidebar-index-item-big-title">Talking to Computers</h3>
                         </div>
                         <p className="resume-sidebar-index-item-content underline">Advanced</p>
                         <p className="resume-sidebar-index-item-content">
@@ -81,7 +81,7 @@ class ResumeSidebar extends React.Component {
                     </div>
                     <div className="resume-sidebar-index-item">
                         <div className="resume-sidebar-index-item-header-alignment-container">
-                            <h3 className="resume-sidebar-index-item-little-title">Talking to People</h3>
+                            <h3 className="resume-sidebar-index-item-big-title">Talking to People</h3>
                         </div>
                         <p className="resume-sidebar-index-item-content underline">Advanced</p>
                         <p className="resume-sidebar-index-item-content">
