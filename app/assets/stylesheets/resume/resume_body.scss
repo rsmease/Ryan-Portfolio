@@ -10,7 +10,7 @@
     @include flex(column);
     align-items: flex-end;
     justify-content: flex-start;
-    background-color: $medium-gray;
+    background-color: $powder-blue;
     padding: 0px 30px 0px 30px;
     width: 30vw;
     height: 100%;
@@ -39,7 +39,7 @@
 .resume-main-title {
     @extend .resume-body-title;
     text-align: left;
-    color: $maroon;
+    color: $black;
 }
 
 .resume-body-index {
@@ -91,7 +91,7 @@
 
 .resume-sidebar-index-item-big-title {
     @extend .resume-index-item-big-title;
-    color: $maroon;
+    color: $black;
 }
 
 .resume-main-index-item-big-title {
@@ -105,7 +105,7 @@
 
 .resume-sidebar-index-item-little-title {
     @extend .resume-index-item-little-title;
-    color: $maroon;
+    color: $black;
 }
 
 .resume-main-index-item-little-title {
@@ -134,7 +134,7 @@
     @extend .resume-index-item-content;
     margin: 10px 0 0 0;
     text-align: left;
-    color: $maroon;
+    color: $black;
 }
 
 .resume-main-index-item-content-detail {
@@ -147,14 +147,15 @@
     width: 80%;
     height: 0px;
     margin: 30px 0 0 0;
-    border-top: 1px solid $white;
+    border-top: 1px solid $maximum-blue;
 }
 
 .resume-link {
     display: inline-block;
+    color: $maximum-blue;
     @include hover-ease(color, 0.5s);
 }
 
 .resume-link:hover {
-    color: $dark-blue;
+    color: $japanese-indigo;
 }

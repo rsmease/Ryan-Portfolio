@@ -18,7 +18,7 @@
 
 .splash-link {
     color: $white;
-    background-color: $maroon;
+    background-color: $japanese-indigo;
     @include material-button-defaults;
 }
 
@@ -50,7 +50,7 @@
 .line-top {
     @include expand;
     border-bottom: 3px solid white;
-    height: 100px;
+    height: 20vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -59,7 +59,7 @@
 .line-bottom {
     @include expand;
     border-top: 3px solid white;
-    height: 100px;
+    height: 20vh;
     position: fixed;
     bottom: 0;
     right: 0;

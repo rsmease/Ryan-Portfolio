@@ -2,7 +2,7 @@
 @import 'utils/reset';
 @import 'utils/colors';
 @import 'utils/mixins';
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
 //components
 @import 'splash';
 @import 'resume/resume_header';
@@ -12,7 +12,7 @@
 html,
 body {
     height: 100%;
-    font-family: "Lato", sans-serif;
+    font-family: "Mukta Malar", sans-serif;
     overflow: scroll;
 }
 
