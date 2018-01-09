@@ -1,13 +1,3 @@
-$maroon: #7a2828;
-$dark-blue: #08243F;
-$light-blue: #06beb6;
-$purple: rgb(77, 52, 104);
-$mint: #B2EDC5;
-$medium-gray: #EDEDED;
-$light-gray: #F2E1E1;
-$lavender-gray: #868BA7;
-$dark-green: #66A182;
-$light-green: #3BC14A;
 //new color schema
 $maximum-blue: #50B1BF;
 $robin-egg-blue: #95D6D7;
@@ -21,14 +11,5 @@ $black: #000000;
     background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #48b1bf, #06beb6);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-@mixin maroon-gradient {
-    background: #a73737;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #7a2828, #a73737);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #7a2828, #a73737);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
