@@ -63,9 +63,8 @@
 
 .resume-main-index-item {
     @extend .resume-main-index;
+    height: 175px;
     justify-content: center;
-    @include material-card-defaults(225px, 400px);
-    padding: 0 0 0 30px;
     margin: 15px 0;
 }
 
