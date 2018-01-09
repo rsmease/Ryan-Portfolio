@@ -64,8 +64,8 @@
 .resume-main-index-item {
     @extend .resume-main-index;
     justify-content: center;
-    @include material-card-defaults(225px, 420px);
-    padding: 0 0 0px 30px;
+    @include material-card-defaults(225px, 400px);
+    padding: 0 0 0 30px;
     margin: 15px 0;
 }
 
@@ -137,17 +137,10 @@
 }
 
 .resume-link {
+    display: inline-block;
     @include hover-ease(all, 0.3s);
 }
 
-.resume-link::after {
-    @include expanding-bottom-border($lavender-gray, 1px);
-}
-
 .resume-link:hover {
-    color: $lavender-gray;
-}
-
-.resume-link::after:hover {
-    @include expanding-bottom-border-after-hover;
+    color: $light-green;
 }
