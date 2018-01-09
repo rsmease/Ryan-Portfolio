@@ -29,7 +29,12 @@ class ResumeMain extends React.Component {
                             Review student programming assignments
                         </p>
                     </div>
+                    <div className="resume-education-container">
+                        <div className="resume-arrow-up"></div>
+                        <h3 className="resume-main-index-item-little-title">Attended App Academy</h3>
+                    </div>
                     <div className="resume-main-index-item">
+                        <div className="resume-arrow-up"></div>
                         <div className="resume-main-index-item-header-alignment-container">
                             <h3 className="resume-main-index-item-little title">08/15 - 10/17</h3>
                             <h1 className="resume-main-index-item-big-title">Airbus Group, Inc.</h1>
@@ -46,6 +51,7 @@ class ResumeMain extends React.Component {
                         </p>
                     </div>
                     <div className="resume-main-index-item">
+                        <div className="resume-arrow-up"></div>
                         <div className="resume-main-index-item-header-alignment-container">
                             <h3 className="resume-main-index-item-little title">12/13 - 08/15</h3>
                             <h1 className="resume-main-index-item-big-title">Stanford University</h1>
@@ -58,6 +64,10 @@ class ResumeMain extends React.Component {
                         <p className="resume-main-index-item-content">
                             Maintained MySQL database of 1000s of records
                         </p>
+                    </div>
+                    <div className="resume-education-container">
+                        <div className="resume-arrow-up"></div>
+                        <h3 className="resume-main-index-item-little-title">Attended University of Chicago</h3>
                     </div>
                 </div>
             </div>

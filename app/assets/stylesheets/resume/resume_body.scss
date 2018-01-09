@@ -11,6 +11,7 @@
     align-items: flex-end;
     justify-content: flex-start;
     background-color: $medium-gray;
+    border-right: $light-green 3px solid;
     padding: 0px 30px 0px 30px;
     width: 30vw;
     height: 100%;
@@ -18,6 +19,7 @@
 
 .resume-main {
     @extend .resume-sidebar;
+    border-right: none;
     align-items: flex-start;
     width: 40vw;
     background-color: $white;
@@ -63,9 +65,9 @@
 
 .resume-main-index-item {
     @extend .resume-main-index;
-    height: 175px;
+    height: auto;
     justify-content: center;
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
 .resume-index-item-header-alignment-container {
@@ -142,4 +144,14 @@
 
 .resume-link:hover {
     color: $light-green;
+}
+
+.resume-arrow-up {
+    @include arrow-up($light-green);
+    margin: 0 0 5px 0;
+}
+
+.resume-education-container {
+    @extend .resume-main-index-item;
+    height: auto;
 }
