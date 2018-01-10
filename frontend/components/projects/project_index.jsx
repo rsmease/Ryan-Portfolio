@@ -11,6 +11,9 @@ class ProjectIndex extends React.Component {
     render() {
         return (
             <div className="project-index-container">
+                <div className="diagonal-line-container">
+                    <div className="diagonal-line"></div>
+                </div>
                 <h1 className="project-title">Projects</h1>
                 <div className="project-index-item fade-in-first">
                     <div className="project-index-item-slide-container">
