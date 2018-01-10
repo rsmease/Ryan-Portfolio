@@ -1,0 +1,89 @@
+.project-index-container {
+    @include flex-center(row);
+    @include blue-gradient;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.project-title {
+    @extend .splash-title;
+    @include vertical;
+    position: fixed;
+    left: -100px;
+    top: calc(50vh - 48px);
+}
+
+.project-index-item {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color: $white;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+.project-index-item:hover .project-index-item-slide-container {
+    bottom: -380px;
+}
+
+.project-index-item-slide-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @include flex-center(row);
+    height: 100%;
+    width: 100%;
+    transition: bottom 0.4s cubic-bezier(0, 0, 0.4, 1);
+    background-color: $japanese-indigo;
+    z-index: 1;
+}
+
+.project-index-item-slide-icon {
+    @include flex-center(column);
+    height: 100%;
+    z-index: 2;
+}
+
+.project-index-item-slide-icon {
+    padding: 0 60px;
+    position: absolute;
+    margin-top: 0;
+}
+
+.projext-index-item-big-title {
+    @extend .resume-index-item-big-title;
+    color: $maximum-blue;
+}
+
+.projext-index-item-little-title {
+    @extend .resume-index-item-little-title;
+    color: $white;
+}
+
+.project-index-item-arrow-down {
+    color: $maximum-blue;
+    font-size: 36px;
+}
+
+.project-index-item-description {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    color: $white;
+}
+
+.great-content {
+    color: $maximum-blue;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .project-index-container {
+        @include flex-center(column);
+    }
+    .project-index-item {
+        margin: 10px 0;
+    }
+}
