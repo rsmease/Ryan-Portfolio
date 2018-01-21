@@ -3,27 +3,27 @@ import * as THREE from 'three';
 
 class Simple extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
 
-        this.start = this.start.bind(this)
-        this.stop = this.stop.bind(this)
-        this.animate = this.animate.bind(this)
+        this.start = this.start.bind(this);
+        this.stop = this.stop.bind(this);
+        this.animate = this.animate.bind(this);
     }
 
     componentDidMount() {
-        const width = this.mount.clientWidth
-        const height = this.mount.clientHeight
+        const width = this.mount.clientWidth;
+        const height = this.mount.clientHeight;
 
-        const scene = new THREE.Scene()
+        const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(
             75,
             width / height,
             0.1,
             1000
-        )
-        const renderer = new THREE.WebGLRenderer({ antialias: true })
+        );
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
         const geometry = new THREE.SphereGeometry(1, 5, 5);
-        const material = new THREE.MeshBasicMaterial({ color: '#FFFFFF' })
+        const material = new THREE.MeshBasicMaterial({ color: '#FFFFFF' });
         const cube = new THREE.Mesh(geometry, material);
 
         camera.position.z = 4
