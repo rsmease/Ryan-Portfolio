@@ -7,6 +7,7 @@ import { AuthRoute, ProtectedRoute } from '../../util/route_util';
 import Splash from './splash.jsx';
 import Resume from '../resume/resume_container';
 import ProjectIndex from '../projects/project_index';
+import Simple from '../threeJS/simple';
 
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
         <Route exact path="/" component={Splash} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/projects" component={ProjectIndex} />
+        <Route exact path="/three/1" component={Simple} />
     </Switch>
 );
 
