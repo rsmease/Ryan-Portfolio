@@ -21,15 +21,12 @@ class ResumeSidebar extends React.Component {
                         <div className="resume-sidebar-index-item-header-alignment-container">
                             <h3 className="resume-sidebar-index-item-big-title">Talking to Computers</h3>
                         </div>
-                        <p className="resume-sidebar-index-item-content underline">Advanced</p>
                         <p className="resume-sidebar-index-item-content">
                             React, Redux, JavaScript (ES6), npm
                         </p>
                         <p className="resume-sidebar-index-item-content">
                             Ruby, Rails, HTML5, CSS3, PostgreSQL, git
                         </p>
-                        <br />
-                        <p className="resume-sidebar-index-item-content underline">Basic</p>
                         <p className="resume-sidebar-index-item-content">
                             Express, MongoDB, jQuery, Vanilla JavaScript
                         </p>
@@ -38,7 +35,6 @@ class ResumeSidebar extends React.Component {
                         <div className="resume-sidebar-index-item-header-alignment-container">
                             <h3 className="resume-sidebar-index-item-big-title">Talking to People</h3>
                         </div>
-                        <p className="resume-sidebar-index-item-content underline">Advanced</p>
                         <p className="resume-sidebar-index-item-content">
                             Ancient Greek, Latin
                         </p>
