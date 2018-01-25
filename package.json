@@ -13,7 +13,6 @@
     "react-modal": "^3.1.10",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
-    "react-three-renderer": "^3.2.3",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
@@ -44,5 +43,8 @@
   "bugs": {
     "url": "https://github.com/rsmease/blog/issues"
   },
-  "homepage": "https://github.com/rsmease/blog#readme"
+  "homepage": "https://github.com/rsmease/blog#readme",
+  "devDependencies": {
+    "react": "^16.2.0"
+  }
 }
