@@ -15,8 +15,8 @@ const App = () => (
         <Route exact path="/" component={Splash} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/projects" component={ProjectIndex} />
+        <Route exact path="/projects/three/1" component={Simple} />
     </Switch>
 );
 
 export default App;
-{/* <Route exact path="/three/1" component={Simple} /> */ }

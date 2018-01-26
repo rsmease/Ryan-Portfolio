@@ -22,7 +22,7 @@ class ProjectIndex extends React.Component {
                     <h1 className="project-index-item-title fade-in-first">Latin for Addicts</h1>
                     <div className="project-index-item fade-in-first latinforaddicts">
                         <div className="project-index-item-overlay">
-                            <a className="view-project-button" href="https://latinforaddicts.wordpress.com">View Site</a>
+                            <a className="view-project-button" href="https://latinforaddicts.wordpress.com" target="_blank">View Site</a>
                             <div className="project-index-item-slide-container">
                                 <div className="project-index-item-slide-icon">
                                     <p className="project-index-item-description">
@@ -41,7 +41,7 @@ class ProjectIndex extends React.Component {
                     <h1 className="project-index-item-title fade-in-second">Ashai</h1>
                     <div className="project-index-item fade-in-second ashai">
                         <div className="project-index-item-overlay">
-                            <a className="view-project-button" href="http://www.ashai.co">View Site</a>
+                            <a className="view-project-button" href="http://www.ashai.co" target="_blank">View Site</a>
                             <div className="project-index-item-slide-container">
                                 <div className="project-index-item-slide-icon">
                                     <p className="project-index-item-description">
