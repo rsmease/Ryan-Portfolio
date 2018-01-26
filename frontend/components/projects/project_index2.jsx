@@ -27,6 +27,14 @@ class ProjectIndex extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className="project-index-item-container">
+                    <h1 className="project-index-item-title fade-in-second">Ashai</h1>
+                    <div className="project-index-item fade-in-second ashai">
+                        <div className="project-index-item-overlay">
+                            <a className="view-project-button" href="http://www.ashai.co" target="_blank">View Site</a>
+                        </div>
+                    </div >
+                </div>
             </div>
 
         );

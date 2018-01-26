@@ -35,7 +35,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    height: 300px;
+    height: 200px;
     width: 300px;
     margin: 0 10px;
     border-bottom-left-radius: 4px;
@@ -44,12 +44,12 @@
 
 .ashai {
     background-image: url("https://i.imgur.com/uKa7PTJ.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 .latinforaddicts {
     background-image: url("https://i.imgur.com/IOymMYV.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 .project-index-item-overlay {
