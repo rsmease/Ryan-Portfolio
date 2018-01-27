@@ -6,7 +6,7 @@ import { AuthRoute, ProtectedRoute } from '../../util/route_util';
 //components
 import Splash from './splash.jsx';
 import Resume from '../resume/resume_container';
-import ProjectIndex from '../projects/project_index2';
+import ProjectIndex from '../projects/project_index';
 import Simple from '../threeJS/simple';
 
 
