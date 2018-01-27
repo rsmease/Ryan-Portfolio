@@ -38,8 +38,6 @@
     height: 200px;
     width: 300px;
     margin: 0 10px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
 }
 
 .ashai {
@@ -71,6 +69,22 @@
 
 .view-project-button:hover {
     color: $maximum-blue;
+}
+
+.project-index-item-description {
+    background: $japanese-indigo;
+    @include flex-center(column);
+    z-index: 1;
+    padding: 0 30px;
+    height: calc(200px);
+    width: calc(300px - 60px);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.project-index-item-description>p {
+    color: white;
+    text-align: center;
 }
 
 .project-index-item-slide-container {
@@ -110,13 +124,6 @@
 .project-index-item-arrow-down {
     color: $maximum-blue;
     font-size: 36px;
-}
-
-.project-index-item-description {
-    margin: 15px 0;
-    text-align: center;
-    font-size: 16px;
-    color: $white;
 }
 
 .great-content {
