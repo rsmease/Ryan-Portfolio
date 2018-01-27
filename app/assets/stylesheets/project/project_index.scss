@@ -139,7 +139,7 @@
 }
 
 .diagonal-line-1 {
-    @include expand;
+    @include expand-delayed;
     position: relative;
     width: 50vw;
     height: 100vh;
@@ -170,6 +170,14 @@
     transform: rotate(40deg) scale(2.5);
     transform-origin: 0% 0%;
     top: -30px;
+}
+
+.fixed-corner-nav-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    @include flex-space-between(column);
+    height: 120px;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {

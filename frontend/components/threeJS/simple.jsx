@@ -21,9 +21,12 @@ class Simple extends React.Component {
             0.1,
             1000
         );
-        const renderer = new THREE.WebGLRenderer({ antialias: true });
-        const geometry = new THREE.SphereGeometry(1, 32, 32);
-        const material = new THREE.MeshDepthMaterial();
+        const renderer = new THREE.WebGLRenderer();
+        renderer.gammaInput = true;
+        renderer.gammaOutput = true;
+
+        const geometry = new THREE.SphereGeometry(1, 24, 16, 0 * Math.PI / 2, Math.PI / 2);
+        const material = new THREE.MeshDepthMaterial({ wireframe: true })
         const cube = new THREE.Mesh(geometry, material);
 
         camera.position.z = 4;

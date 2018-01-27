@@ -33,6 +33,10 @@ class Resume extends React.Component {
                     <div className="line-right-3"></div>
                 </div>
                 <ResumeFooter />
+                <div className="fixed-corner-nav-container">
+                    <Link to="/projects" className="splash-link raise">Projects</Link>
+                    <Link to="/" className="splash-link raise">Home</Link>
+                </div>
             </div>
         );
     }
