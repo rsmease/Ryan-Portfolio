@@ -7,7 +7,7 @@ import { AuthRoute, ProtectedRoute } from '../../util/route_util';
 import Splash from './splash.jsx';
 import Resume from '../resume/resume_container';
 import ProjectIndex from '../projects/project_index';
-import Simple from '../threeJS/simple';
+import Simple from '../threeJS/simple2.jsx';
 
 
 const App = () => (
