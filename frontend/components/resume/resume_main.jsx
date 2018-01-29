@@ -17,10 +17,10 @@ class ResumeMain extends React.Component {
                         <div className="resume-main-index-item-header-alignment-container">
                             <h3 className="resume-main-index-item-little-title-date">12/17 -</h3>
                             <h1 className="resume-main-index-item-big-title">App Academy</h1>
-                            <h3 className="resume-main-index-item-little-title">Teaching Assistant</h3>
+                            <h3 className="resume-main-index-item-little-title">Software Engineering TA</h3>
                         </div>
                         <p className="resume-main-index-item-content">
-                            Teach web development curriculum
+                            Teach engineering curriculum
                         </p>
                         <li className="resume-main-index-item-content-detail">
                             Ruby on Rails, React, algorithms, data structures
@@ -29,7 +29,7 @@ class ResumeMain extends React.Component {
                             Lecture students on assessment strategies
                         </p>
                         <p className="resume-main-index-item-content">
-                            Review student programming assignments
+                            Mentor students building full-stack web applications
                         </p>
                         <li className="resume-main-index-item-content-detail">
                             Discuss design trade-offs, memory and performance
@@ -42,7 +42,7 @@ class ResumeMain extends React.Component {
                             <h3 className="resume-main-index-item-little-title">Operations Manager</h3>
                         </div>
                         <p className="resume-main-index-item-content">
-                            Founding employee, aerospace research lab
+                            Founding employee, aerospace start-up
                         </p>
                         <li className="resume-main-index-item-content-detail">
                             Scaled from 4 to 100 employees in 18 months
@@ -51,14 +51,14 @@ class ResumeMain extends React.Component {
                             Managed procurement, accounts payable staff (3 reports)
                         </p>
                         <li className="resume-main-index-item-content-detail">
-                            $10K unrestricted signing authority
-                        </li>
-                        <li className="resume-main-index-item-content-detail">
-                            Approved $6-12M in annual spending across all departments
+                            $10K unrestricted signing authority, $1-3M annual spending
                         </li>
                         <p className="resume-main-index-item-content">
-                            Oversaw build of public website, internal wiki
+                            Oversaw build of public website, internal website
                         </p>
+                        <li className="resume-main-index-item-content-detail">
+                            Ruby on Rails, HTML5 and CSS3, localized for global audience
+                        </li>
                     </div>
                     <div className="resume-main-index-item">
                         <div className="resume-main-index-item-header-alignment-container">
@@ -68,7 +68,7 @@ class ResumeMain extends React.Component {
                             <h3 className="resume-main-index-item-little-title">Student Services Specialist</h3>
                         </div>
                         <p className="resume-main-index-item-content">
-                            Maintained department webpages using Drupal, Vi
+                            Built and maintained department webpages using Vi, HTML4, CSS2
                         </p>
                         <p className="resume-main-index-item-content">
                             Supported courses with more than 500 enrolled students
