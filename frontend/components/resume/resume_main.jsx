@@ -25,6 +25,9 @@ class ResumeMain extends React.Component {
                         <li className="resume-main-index-item-content-detail">
                             Ruby on Rails, React, algorithms, data structures
                         </li>
+                        <li className="resume-main-index-item-content-detail">
+                            Redux, HTML5, CSS3, Vanilla JavaScript, PostgreSQL
+                        </li>
                         <p className="resume-main-index-item-content">
                             Lecture students on assessment strategies
                         </p>
@@ -42,6 +45,12 @@ class ResumeMain extends React.Component {
                             <h3 className="resume-main-index-item-little-title">Operations Manager</h3>
                         </div>
                         <p className="resume-main-index-item-content">
+                            Oversaw build of public website, internal website
+                        </p>
+                        <li className="resume-main-index-item-content-detail">
+                            Ruby on Rails, HTML5 and CSS3, localized for global audience
+                        </li>
+                        <p className="resume-main-index-item-content">
                             Founding employee, aerospace start-up
                         </p>
                         <li className="resume-main-index-item-content-detail">
@@ -52,12 +61,6 @@ class ResumeMain extends React.Component {
                         </p>
                         <li className="resume-main-index-item-content-detail">
                             $10K unrestricted signing authority, $1-3M annual spending
-                        </li>
-                        <p className="resume-main-index-item-content">
-                            Oversaw build of public website, internal website
-                        </p>
-                        <li className="resume-main-index-item-content-detail">
-                            Ruby on Rails, HTML5 and CSS3, localized for global audience
                         </li>
                     </div>
                     <div className="resume-main-index-item">
