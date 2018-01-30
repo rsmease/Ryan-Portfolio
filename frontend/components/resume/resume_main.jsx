@@ -17,7 +17,7 @@ class ResumeMain extends React.Component {
                         <div className="resume-main-index-item-header-alignment-container">
                             <h3 className="resume-main-index-item-little-title-date">12/17 -</h3>
                             <h1 className="resume-main-index-item-big-title">App Academy</h1>
-                            <h3 className="resume-main-index-item-little-title">Software Engineering TA</h3>
+                            <h3 className="resume-main-index-item-little-title">Software Engineering Instructor</h3>
                         </div>
                         <p className="resume-main-index-item-content">
                             Teach engineering curriculum
@@ -29,7 +29,7 @@ class ResumeMain extends React.Component {
                             Redux, HTML5, CSS3, Vanilla JavaScript, PostgreSQL
                         </li>
                         <p className="resume-main-index-item-content">
-                            Lecture students on assessment strategies
+                            Lecture students on OOP, testing and debugging strategies
                         </p>
                         <p className="resume-main-index-item-content">
                             Mentor students building full-stack web applications
@@ -41,14 +41,23 @@ class ResumeMain extends React.Component {
                     <div className="resume-main-index-item">
                         <div className="resume-main-index-item-header-alignment-container">
                             <h3 className="resume-main-index-item-little-title-date">08/15 - 10/17</h3>
-                            <h1 className="resume-main-index-item-big-title">Airbus Group, Inc.</h1>
+                            <h1 className="resume-main-index-item-big-title">A³ by Airbus Group</h1>
                             <h3 className="resume-main-index-item-little-title">Operations Manager</h3>
                         </div>
                         <p className="resume-main-index-item-content">
-                            Oversaw build of public website, internal website
+                            Oversaw build of <a href="https://www.airbus-sv.com">public website</a>
                         </p>
                         <li className="resume-main-index-item-content-detail">
-                            Ruby on Rails, HTML5 and CSS3, localized for global audience
+                            Rails app with Greenhouse ATS integration
+                        </li>
+                        <li className="resume-main-index-item-content-detail">
+                            Developed under direct supervision of CEO
+                        </li>
+                        <li className="resume-main-index-item-content-detail">
+                            Content localized for large international audience
+                        </li>
+                        <li className="resume-main-index-item-content-detail">
+                            Handrolled CMS for corporate communciations leadership
                         </li>
                         <p className="resume-main-index-item-content">
                             Founding employee, aerospace start-up
@@ -71,8 +80,14 @@ class ResumeMain extends React.Component {
                             <h3 className="resume-main-index-item-little-title">Student Services Specialist</h3>
                         </div>
                         <p className="resume-main-index-item-content">
-                            Built and maintained department webpages using Vi, HTML4, CSS2
+                            Built and maintained department webpages
                         </p>
+                        <li className="resume-main-index-item-content-detail">
+                            Secure internal sites supporting CS courses, curriculum
+                        </li>
+                        <li className="resume-main-index-item-content-detail">
+                            Managed via remote SSH, written using only Unix editor Vi
+                        </li>
                         <p className="resume-main-index-item-content">
                             Supported courses with more than 500 enrolled students
                         </p>
