@@ -17,7 +17,7 @@ class ResumeFooter extends React.Component {
                     <FontAwesome.FaGit className="resume-footer-icon" />
                 </a>
                 <a
-                    href="https://drive.google.com/file/d/1vqpCQbfVO9IwSfEiLymdSHbcZcMkndEu/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1dpAQGgZQC1TCvzGTeIirHk9aRnJNHM9P/view?usp=sharing"
                     target="_blank" >
                     <FontAwesome.FaPrint className="resume-footer-icon" />
                 </a>

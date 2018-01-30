@@ -45,7 +45,7 @@ class ResumeMain extends React.Component {
                             <h3 className="resume-main-index-item-little-title">Operations Manager</h3>
                         </div>
                         <p className="resume-main-index-item-content">
-                            Oversaw build of <a href="https://www.airbus-sv.com">public website</a>
+                            Oversaw build of <a className="resume-link underline" href="https://www.airbus-sv.com" target="_blank">public website</a>
                         </p>
                         <li className="resume-main-index-item-content-detail">
                             Rails app with Greenhouse ATS integration
